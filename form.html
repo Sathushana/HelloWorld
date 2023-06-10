@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+    </head>
+
+    <body>
+        <form action="formSubmission.html" target="_blank" method="post">
+            <label name="firstname">&nbsp&nbsp&nbsp&nbsp&nbsp First Name:</label>
+            <input type="text" name="firstname" id="fname" placeholder="Enter Firstname"><br><br>
+
+            <label name="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lname" placeholder="Enter LastName"><br><br>
+
+            <label name="address">Address:</label>
+            <textarea name="address" rows="4" cols="20">Enter address</textarea><br><br>
+
+            <label>Gender:</label>
+            Male <input type="radio" name="gender" value="M">
+            Female <input type="radio" name="gender" value="F"><br><br>
+
+            <label>Subjects:</label>
+            CS310 <input type="checkbox" name="subject1" value="CS310" checked>
+            CS315 <input type="checkbox" name="subject2" value="CS315">
+            CS311 <input type="checkbox" name="subject2" value="CS311"><br><br>
+
+            <label>Department:</label>
+            <select name="selectDepartment">
+                <option value="-1">Select a value</option>
+                <option value="Statistics and Computer Science">Department of Statistics and Computer Science</option>
+                <option value="Mathematics">Department of Mathematics</option>
+                <option value="Physics">                        Department of Physics</option>
+            </select><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password"><br><br>
+
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+
+        </form>
+    </body>
+</html>
